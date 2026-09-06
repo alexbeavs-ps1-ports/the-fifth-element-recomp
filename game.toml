@@ -1,0 +1,44 @@
+
+[game]
+name = "The Fifth Element"
+id = "SCES-01285"
+players = 1
+exe = "disc/SCES_012.85"
+disc = "disc/Fifth Element, The (Europe) (En,Fr,De,Es,It).cue"
+load_address = "0x80010000"
+entry_pc = "0x80014A10"
+text_size = "0x00006800"
+stack_base = "0x801FFF00"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 01).bin"
+cue_name = "Fifth Element, The (Europe) (En,Fr,De,Es,It).cue"
+boot_exe = "SCES_012.85"
+known_sizes = [354378192, 704221728]
+known_md5 = ["573d0c845cf12e9c2024746b70c12597", "ebcee979c679cb3adfbf6adc70b93c62"]
+known_sha1 = ["71d5d3ceecfe33d45f7ef789ff7bcd4df81044fc", "c449beb473b81fae2f5a1d65c1a28f209963cbc1"]
+known_crc32 = ["f0313791", "aaa3192a"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "The Fifth Element Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 10
+required_disc_fp = "fa8f12fdfd221e717a025c68307a641310ac6f432cb048fc35f8d536f07e529b"

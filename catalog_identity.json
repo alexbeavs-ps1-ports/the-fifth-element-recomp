@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "The Fifth Element",
+    "id": "SCES-01285",
+    "boot_exe": "SCES_012.85"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "Europe",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Fifth Element, The (Europe) (En,Fr,De,Es,It).cue",
+    "bin_name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 01).bin",
+    "track_counts": [
+      10
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 354378192,
+      "md5": "573d0c845cf12e9c2024746b70c12597",
+      "sha1": "71d5d3ceecfe33d45f7ef789ff7bcd4df81044fc",
+      "crc32": "f0313791"
+    },
+    "disc_fp": "fa8f12fdfd221e717a025c68307a641310ac6f432cb048fc35f8d536f07e529b"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80014A10",
+    "text_size": "0x00006800",
+    "stack_base": "0x801FFF00"
+  },
+  "seeds": {
+    "count": 105,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

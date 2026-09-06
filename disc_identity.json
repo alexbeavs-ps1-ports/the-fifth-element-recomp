@@ -1,0 +1,87 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Fifth Element, The (Europe) (En,Fr,De,Es,It).cue",
+      "bin_name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 01).bin",
+      "size": 354378192,
+      "md5": "573d0c845cf12e9c2024746b70c12597",
+      "sha1": "71d5d3ceecfe33d45f7ef789ff7bcd4df81044fc",
+      "crc32": "f0313791",
+      "track_count": 10,
+      "tracks": [
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 01).bin",
+          "size": "354378192",
+          "crc": "f0313791",
+          "md5": "573d0c845cf12e9c2024746b70c12597",
+          "sha1": "71d5d3ceecfe33d45f7ef789ff7bcd4df81044fc"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 02).bin",
+          "size": "45649968",
+          "crc": "d11b0780",
+          "md5": "94fc6a8c2c3922c72d4eecacca49913b",
+          "sha1": "9ad7367ee29fa2ebb1028449f876f15df00ef525"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 03).bin",
+          "size": "42839328",
+          "crc": "8023653b",
+          "md5": "abd073cc7d9f162be7562e359dc52876",
+          "sha1": "716d4a48220114797f6b762b602ea9498582c86e"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 04).bin",
+          "size": "43537872",
+          "crc": "07a15206",
+          "md5": "d7575fb641994b9934eb04843db2ab4b",
+          "sha1": "97a5eb8066a9835c672ba5f994d4d3548cbcd371"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 05).bin",
+          "size": "50702064",
+          "crc": "0c94477e",
+          "md5": "1982b4128903f903440cfc57cbcc3169",
+          "sha1": "f3b386f73177f45b112c753b99f071e169d53172"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 06).bin",
+          "size": "43427328",
+          "crc": "764c5810",
+          "md5": "60ee5715a9e277396861f83f348c8a88",
+          "sha1": "6145c8a9934964b0c635ceed506c27f991627eff"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 07).bin",
+          "size": "28322784",
+          "crc": "a52ce139",
+          "md5": "ed98afabbc77413ec6fa50e76ed6c34a",
+          "sha1": "5ec7b71f2490e550f0f06415fd5633e34e1edf45"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 08).bin",
+          "size": "43533168",
+          "crc": "312fee8b",
+          "md5": "a6828033167e83db5dbd74ad2944b169",
+          "sha1": "b33af22a2bcdfb76a733ce6a34a2337bee050f2d"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 09).bin",
+          "size": "19726224",
+          "crc": "dfc75dcd",
+          "md5": "a217e41b1851cec7c1b8a5c82dce22b6",
+          "sha1": "676b85b0934e97149c9927a07e04793c75570a14"
+        },
+        {
+          "name": "Fifth Element, The (Europe) (En,Fr,De,Es,It) (Track 10).bin",
+          "size": "32104800",
+          "crc": "9b94ea54",
+          "md5": "65aea234c174ee35fb574d981fe3fc4f",
+          "sha1": "bd1fde88c2b79e3cf8821c969373460d51f3155a"
+        }
+      ]
+    }
+  ]
+}
